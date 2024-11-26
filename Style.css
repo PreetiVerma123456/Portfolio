@@ -861,6 +861,9 @@ display: none;
  html{
   font-size: 50%;
  }
+  body {
+ height:auto;
+} 
 }
 @media screen and (max-width:400px) {
  .home-details,
@@ -870,7 +873,9 @@ display: none;
 .resume-detail.about .resume-items {
   text-align: center;
 }
-
+ body {
+ height:auto;
+}
 .home-details .btn-sci {
   flex-direction: column-reverse;
 }
